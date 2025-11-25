@@ -1,0 +1,17 @@
+#board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.cellContainer{
+    display: flex;
+}
+
+.cell{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
